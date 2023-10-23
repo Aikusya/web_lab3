@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #131729;
+}
+
+.wrapper {
+    width: 380px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .title {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    line-height: 100px;
+    background: linear-gradient(-135deg, #0E0D36 , #fff);
+}
+
+.wrapper form {
+    padding: 10px 30px 50px 30px;
+}
+
+.wrapper form .field {
+    position: relative;
+    height: 50px;
+    widtht: 100%;
+    margin-top: 20px;
+}
+
+.wrapper form .field input {
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 25px;
+    outline: none;
+    border: 1px solid lightgrey;
+}
+
+.wrapper form .field label {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.wrapper form .field input:focus ~ label {
+    top: 0%;
+    transform: translateY(-50%);
+}
+
+.wrapper form .pass-link {
+    color: #00E3FF;
+}
+
+.wrapper form .field input[type="submit"] {
+    color: #fff;
+    background: linear-gradient(-135deg, #0E0D36 , #fff);
+}
+
+.container #myForm button{
+    background-color: #fff;
+    }
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+#timer {
+    font-size: 2rem;
+}

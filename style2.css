@@ -1,0 +1,25 @@
+#cards .card .row .col-md-4 img{
+    padding: 0 10% 0 0;
+    }
+
+#cards {
+    margin: 0 10%;
+    }
+
+#cards h2 {
+    margin: 10% 0 4% 0;
+    text-align: center;
+    font-weight: bold;
+    }
+
+#timer {
+    font-size: 2rem;
+}
+
+.tabs-accordions {
+    margin: 8% 15%;
+    }
+
+.tabs-accordions #accordion {
+    margin: 15% 15%;
+    }
